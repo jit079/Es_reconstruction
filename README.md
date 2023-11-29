@@ -2,7 +2,7 @@
 
 The scripts are written in Python and use the libraries: numpy, matplotlib, netCDF4, and h5py. The versions I used on my computer are: Python - 3.10.8, numpy - 1.22.1, matplotlib - 3.7.0, netCDF4 - 1.6.2, h5py - 3.6.0.
 
-The code reconstructs hyperspectral downwelling solar irradiance from 310.25 to 899.75 nm using only multispectral Ed (10 nm resolution) at 412, 489, 555, and 705 nm, using SeaBird OCR sensor. Users need to define the output wavelength that they would like to reconstruct Ed at. The finest reconstructed resolution can be 0.5 nm.
+The code reconstructs hyperspectral downwelling solar irradiance from 310.25 to 899.75 nm using only multispectral Ed (10 nm resolution) at 412, 489, 555, and 705 nm, i.e., taken using the SeaBird OCR sensor. Users need to define the output wavelength that they would like to reconstruct Ed at. The finest reconstructed resolution can be 0.5 nm.
 
 ## Files needed to run the program
 
@@ -22,7 +22,7 @@ Data files that are necessary to successfully run the scripts mainly consist of 
 
 1. Download the MERRA2 files corresponding to the date when the multispectral Ed data is collected. (The MERRA2 data for the example code has been provided in the 'merra2/' folder.)
 
-2. To run the example script, _“python pace_example.py”_.
+2. To run the example script, _“python example.py”_.
 
 ## Output
 
